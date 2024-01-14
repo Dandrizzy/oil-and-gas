@@ -11,7 +11,7 @@ const Contact = () => {
 
  const myNumber = '+12253959708';
  const handleCall = () => {
-  const telToLink = `mailto:${myNumber}`;
+  const telToLink = `tel:${myNumber}`;
   window.location.href = telToLink;
  };
 
@@ -35,15 +35,15 @@ const Contact = () => {
       <div className=" text-sm grid grid-cols-2 justify-between gap-8">
        <div className="">
         <div className=" font-bold">
-         London
+         United States
         </div>
 
         <ul>
-         <li>Esquivel EcoPetrol Energy UK Ltd</li>
-         <li>4th Floor</li>
-         <li>50 Pall Mall</li>
-         <li>London SW1Y 5JH</li>
-         <li>United Kingdom</li>
+         <li>Esquivel EcoPetrol Ltd</li>
+         <li>Duson</li>
+         <li>LA</li>
+         <li>Louisiana</li>
+         <li>United States</li>
         </ul>
 
        </div>
@@ -54,11 +54,11 @@ const Contact = () => {
         </div>
 
         <ul>
-         <li>Esquivel EcoPetrol Energy US Ltd</li>
-         <li>4th Floor</li>
-         <li>50 Pall Mall</li>
-         <li>London SW1Y 5JH</li>
-         <li>United Kingdom</li>
+         <li>Esquivel EcoPetrol US Ltd</li>
+         <li>401 Ranch Rd</li>
+         <li>Duson, LA</li>
+         <li>70529-4300</li>
+         <li>United States</li>
         </ul>
 
        </div>
