@@ -29,7 +29,7 @@ const Work = () => {
 
    <div className=" grid gap-4 py-8 text-center border-red-500">
     <h1 className=" font-bold text-4xl">10+</h1>
-    <p className=" text-xl">Vercel Owned</p>
+    <p className=" text-xl">Vessels Owned</p>
    </div>
 
 
