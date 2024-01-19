@@ -11,6 +11,6 @@ html {
 }
 
 #intro {
-  background: url('img/intro.jpeg');
+  background: url('/img/intro.jpeg');
   background-size: cover;
 }
