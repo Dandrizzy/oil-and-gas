@@ -1,19 +1,10 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, } from "react-icons/fa6";
 import { MdMail, MdPhone } from "react-icons/md";
+import { handleCall, handleMail } from "../Hooks/helpers";
 
 const Contact = () => {
 
- const myEmail = 'EngrJMEsquivel@outlook.com';
- const handleMail = () => {
-  const mailToLink = `mailto:${myEmail}`;
-  window.location.href = mailToLink;
- };
 
- const myNumber = '+12253959708';
- const handleCall = () => {
-  const telToLink = `tel:${myNumber}`;
-  window.location.href = telToLink;
- };
 
  return (
   <div id="contact" className="  bg-blue-600 text-slate-100 p-4 lg:text-2xl">

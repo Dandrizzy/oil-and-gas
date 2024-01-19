@@ -1,5 +1,6 @@
 import { FaPhone } from "react-icons/fa6";
 import { MdMail } from "react-icons/md";
+import { handleCall, handleMail } from "../Hooks/helpers";
 
 const Invest = () => {
  return (
@@ -13,8 +14,8 @@ const Invest = () => {
      For  all Investor Relations enquiries please get in touch using the details below:
     </p>
     <ul className=" pb-8 [&>*]:hover:cursor-pointer">
-     <li className=" flex items-center gap-4 font-semibold underline text-blue-500"><FaPhone className=" text-slate-800" /> +2233 2233 3333</li>
-     <li className=" flex items-center gap-4 font-semibold underline text-blue-500"><MdMail className=" text-slate-800" /> email@email.com</li>
+     <li onClick={handleMail} className=" flex items-center gap-4 font-semibold underline text-blue-500"><FaPhone className=" text-slate-800" /> Call us</li>
+     <li onClick={handleCall} className=" flex items-center gap-4 font-semibold underline text-blue-500"><MdMail className=" text-slate-800" /> Send us a mail</li>
     </ul>
    </div>
   </div>
