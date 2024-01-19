@@ -4,8 +4,8 @@ import { handleCall, handleMail } from "../Hooks/helpers";
 
 const Invest = () => {
  return (
-  <div id="investors" className=" p-4 grid gap-8 md:grid-cols-2 ">
-   <img src="daniel.JPG" alt="invest" />
+  <div id="investors" className=" p-4 grid gap-8 md:grid-cols-2 items-center ">
+   <img src="img/rig.jpg" alt="invest" className="" />
    <div className="">
     <h1 className=" text-blue-600 font-semibold text-4xl pb-20">Why invest</h1>
     <p>With the world&apos;s increasing energy needs, Esquivel EcoPetrol have the potential for long-term growth. Investing in companies with strong fundamentals, effective management, and a forward-looking approach to technology and sustainability can position your portfolio for potential capital appreciation.</p>

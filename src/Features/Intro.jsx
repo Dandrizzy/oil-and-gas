@@ -1,12 +1,15 @@
 
 const Intro = () => {
  return (
-  <div className=" portrait:h-screen grid text-slate-100  min-h-screen px-4 bg-[url('wave2.svg')] bg-cover ">
+  <div className=" p-8 portrait:h-screen flex flex-col justify-end items-center text-slate-100  min-h-screen bg-[url('img/intro.jpeg')] bg-cover ">
 
-   <p className=" lg:text-[6rem] text-6xl md:text-[5rem]">
-    Oil & Gas
-   </p>
-   <p>Helping oil and gas organizations capture value through operational improvement and digital transformation</p>
+   <div className="backdrop-blur-sm backdrop-saturate-50 rounded-xl">
+
+    <p className=" font-bold w-full text-center p-8  lg:text-[6rem] text-6xl md:text-[5rem]">
+     Oil & Gas
+    </p>
+    <p className=" font-bold text-2xl text-center p-8">Helping oil and gas organizations capture value through operational improvement and digital transformation</p>
+   </div>
 
 
 

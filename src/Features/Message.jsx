@@ -5,21 +5,21 @@ const data = [
     quote: 'In the dynamic and complex landscape of the oil and gas industry, effective governance is paramount to ensure responsible, ethical, and sustainable practices. The governance framework within this sector not only addresses the economic aspects of exploration, extraction, and distribution but also encompasses environmental stewardship, social responsibility, and long-term sustainability. ',
     name: 'oby',
     position: 'Our governance',
-    image: 'daniel.JPG'
+    image: 'img/govern.jpg'
   },
   {
     id: 2,
     quote: 'Founded on a bedrock of expertise and innovation, Esquivel EcoPetrol stands at the forefront of the oil and gas industry, delivering excellence in exploration, production, and sustainable energy solutions. With a legacy rooted in decades of experience, we have continually evolved to meet the dynamic challenges of the global energy landscape.',
     name: 'oby',
     position: 'Our business',
-    image: 'daniel.JPG'
+    image: 'img/business.jpg'
   },
   {
     id: 3,
     quote: 'At Esquivel EcoPetrol, our operation in the oil and gas sector is driven by a commitment to excellence, innovation, and sustainable practices. As a key player in the industry, we are dedicated to responsibly harnessing and delivering energy resources to meet the growing global demand while minimizing environmental impact.',
     name: 'oby',
     position: 'Our operation',
-    image: 'daniel.JPG'
+    image: 'img/operation.jpg'
   }
 ];
 
@@ -33,7 +33,7 @@ const Message = () => {
         data.map((item) => <div key={item.id} className=" md:flex md:justify-between md:even:flex-row-reverse max-w-6xl p-4 md:text-2xl md:p-8 lg:mx-auto">
           <div className="">
 
-            <img src={item.image} alt="daniel" className=" h-60 w-auto md:h-80" />
+            <img src={item.image} alt="daniel" className=" min-w-full min-h-full" />
           </div>
 
           <div className=" max-w-xl px-4 text-slate-600">

@@ -13,6 +13,7 @@ const Quote = () => {
     <p className=" pt-16 text-lg font-bold
    ">Roger Thompson Brown</p>
     <p className=" font-semibold">CEO</p>
+    <img src="img/Esquivel.jpg" alt="" className=" h-20 w-20 mx-auto rounded-full mt-8" />
    </div>
   </div>
  );
