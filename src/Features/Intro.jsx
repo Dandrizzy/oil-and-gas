@@ -1,7 +1,7 @@
 
 const Intro = () => {
  return (
-  <div className=" p-8 portrait:h-screen flex flex-col justify-end items-center text-slate-100  min-h-screen bg-[url('img/intro.jpeg')] bg-cover ">
+  <div className=" p-8 portrait:h-screen flex flex-col justify-end items-center text-slate-100  min-h-screen bg-cover " id="intro">
 
    <div className="backdrop-blur-sm backdrop-saturate-50 rounded-xl">
 

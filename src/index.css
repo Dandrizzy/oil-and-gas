@@ -9,3 +9,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+#intro {
+  background: url('img/intro.jpeg');
+  background-size: cover;
+}
