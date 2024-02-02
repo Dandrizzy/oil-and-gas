@@ -6,8 +6,8 @@ import { scrollToSection } from '../Hooks/ScrollToSection';
 const Nav = () => {
 
  return (
-  <div className=" hidden items-center md:grid grid-cols-2 p-4 bg-neutral-100 text-red-600">
-   <img src="hLogo.png" alt="logo" style={{ height: '4rem', }} className=' bg-red-200/20 rounded-full p-2' />
+  <div className=" hidden items-center md:grid grid-cols-2 px-4 py-1 bg-neutral-100 text-red-600">
+   <img src="hLogo.png" alt="logo" style={{ height: '4rem', }} />
 
 
    <ul className=" lg:text-lg [&>*]:cursor-pointer flex justify-between">
