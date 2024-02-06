@@ -30,7 +30,7 @@ const Message = () => {
   return (
     <div className="min-h-screen lg:mx-auto">
       {
-        data.map((item) => <div key={item.id} className=" md:flex md:justify-between md:even:flex-row-reverse max-w-6xl p-4 md:text-2xl md:p-8 lg:mx-auto">
+        data.map((item) => <div key={item.id} className=" md:flex md:justify-even md:even:flex-row-reverse max-w-6xl p-4 md:text-2xl md:p-8 lg:mx-auto">
           <div className="">
 
             <img src={item.image} alt="daniel" className=" min-w-full min-h-full" />

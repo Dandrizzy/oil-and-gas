@@ -11,7 +11,7 @@ const Quote = () => {
 
      Recognizing our role as environmental stewards, we actively invest in research and development to explore cleaner, greener technologies. We understand that success is intertwined with community well-being, and through collaboration with local stakeholders, we aim to not only meet regional priorities but also contribute to economic growth. At Esquivel EcoPetrol, we are not just an energy provider; we are architects of a sustainable and thriving energy future.</p><br /><br />
     <p className=" pt-16 text-lg font-bold
-   ">Roger Thompson Brown</p>
+   ">Joseph Michael Esquivel</p>
     <p className=" font-semibold">CEO</p>
     <img src="img/Esquivel.jpg" alt="" className=" h-20 w-20 mx-auto rounded-full mt-8" />
    </div>
